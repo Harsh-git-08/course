@@ -1,0 +1,109 @@
+
+
+
+    <section id="services my-5">
+        
+        <div class="container features-card">
+            <div class="row space-rows" id="animated-cards">
+                {{-- <div class="row"> --}}
+                    <div class="col-md-12 pt-5">
+                        <div class="site-heading text-center">
+                            <h2>What we <span>Offer</span></h2>
+                            <h4>Lorem Ipsum is simply dummy text</h4>
+                        </div>
+                    </div>
+                {{-- </div> --}}
+                <div class="col-4 my-5">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header"><span class="space"><i class="fa-brands fa-php service-icon"
+                                    id="service-icon-1"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-1" class="heading-card">PHP</h4>
+                                <p id="cardheader-subtext-1" class="cardheader-subtext">Person home Page</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color"> Description:</p>
+                            <p class="card-text cardbody-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. We provide all you need for a special website or web app.<br /><br /><br /></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 my-5">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header"><span class="space"><i class="fa-laravel fa-brands service-icon"
+                                    id="service-icon-2"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-2" class="heading-card">Laravel</h4>
+                                <p id="cardheader-subtext-2" class="cardheader-subtext">MVC structured PHP Framework</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color"> Description:</p>
+                            <p class="card-text cardbody-sub-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Any programme in .NetFreamwork and C base Language.<br /><br /><br /></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 my-5">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header cards-header-hover"><span class="space"><i
+                                    class="fa-solid fa-magnifying-glass-chart service-icon"
+                                    id="service-icon-3"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-3" class="heading-card">Data Science</h4>
+                                <p id="cardheader-subtext-3" class="cardheader-subtext">Android, Spring</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color"> Description:</p>
+                            <p class="card-text cardbody-sub-text">Lorem ipsum dolor sit. Lorem ipsum dolor sit.All
+                                Java base programme include Andoid Apps and Web Back-end by Spring.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container features-card">
+            <div class="row space-rows justify-content-center" id="animated-cards">
+                <div class="col-4 my-5">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header"><span class="space"><i class="fa-solid fa-brain service-icon"
+                                    id="service-icon-1"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-1" class="heading-card">AI / ML</h4>
+                                <p id="cardheader-subtext-1" class="cardheader-subtext">HTML, CSS, JS, Angular</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color"> Description:</p>
+                            <p class="card-text cardbody-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. We provide all you need for a special website or web app.<br /><br /><br /></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 my-5">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header cards-header-hover"><span class="space"><i
+                                    class="fa-brands fa-js service-icon" id="service-icon-3"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-3" class="heading-card">Javascript</h4>
+                                <p id="cardheader-subtext-3" class="cardheader-subtext">Android, Spring</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color"> Description:</p>
+                            <p class="card-text cardbody-sub-text">Lorem ipsum dolor sit. Lorem ipsum dolor sit.All
+                                Java base programme include Andoid Apps and Web Back-end by Spring.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-5 text-center">
+                    <a class='TIMdemo' href='#' target="_blank">Explore more Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </section>

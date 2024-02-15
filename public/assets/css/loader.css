@@ -1,0 +1,75 @@
+        .loader-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            /* background-color: rgba(255, 255, 255, 0.7); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 1s, transform 1s;
+            opacity: 1;
+            transform: translateY(0%);
+        }
+
+        .box {
+            padding: 0.75em 5em;
+            border-radius: 57px;
+          }
+        
+          svg {
+            height: 98px;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%;
+            transform: scaleX(-1);
+          }
+        
+          .frame {
+            visibility: hidden;
+          }
+        
+          #wolf {
+            fill: white;
+          }
+
+
+         /* Custom Cursor */
+
+
+         .cursor {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            border: 1px solid black;
+            transition: all 200ms ease-out;
+            position: fixed;
+            pointer-events: none;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            transform: translate(calc(-50% + 15px), -50%);
+          }
+          
+          .cursor2 {
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: black;
+            opacity: .3;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            transition: width .3s, height .3s, opacity .3s;
+            z-index: 999;
+          }       
+          
+          
+          .cursorinnerhover {
+            width: 50px;
+            height: 50px;
+            opacity: .5;
+          }
